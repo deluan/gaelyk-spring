@@ -1,0 +1,8 @@
+target
+WEB-INF/lib
+WEB-INF/classes
+\.ipr
+\.iml
+\.iws
+\.iml
+.DS_Store
