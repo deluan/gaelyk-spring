@@ -5,8 +5,8 @@
 
     <bean id="springApplicationContext" class="com.deluan.gaelyk.SpringApplicationContext"/>
 
-    <bean id="dateParser" class="java.text.SimpleDateFormat">
-        <constructor-arg value="yyyy/MM/dd" />
+    <bean id="dateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy/MM/dd hh:mm:ss" />
     </bean>
 
 </beans>
