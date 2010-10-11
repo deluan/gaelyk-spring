@@ -6,6 +6,14 @@
     <bean id="springApplicationContext" class="com.deluan.gaelyk.SpringApplicationContext"/>
 
     <bean id="dateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy/MM/dd" />
+    </bean>
+
+    <bean id="timeFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="hh:mm:ss" />
+    </bean>
+
+    <bean id="dateTimeFormat" class="java.text.SimpleDateFormat">
         <constructor-arg value="yyyy/MM/dd hh:mm:ss" />
     </bean>
 
