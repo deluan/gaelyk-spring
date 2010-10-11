@@ -14,6 +14,7 @@
 		<gmaven.version>1.3</gmaven.version>
 		<gae.version>1.3.7</gae.version>  
 		<gaeplugin.version>0.7.1</gaeplugin.version>
+        <spring.version>3.0.4.RELEASE</spring.version>
     </properties>
 
 	<dependencies>
@@ -37,6 +38,11 @@
 			<artifactId>groovy-all</artifactId>
 			<version>${groovy.version}</version>
 		</dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
 	</dependencies>
 
 	<build>
