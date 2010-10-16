@@ -1,4 +1,4 @@
-import com.deluan.gaelyk.SpringApplicationContext
+import com.deluan.gaelyk.*
 
 binding {
     appCtx = SpringApplicationContext.context
@@ -6,10 +6,8 @@ binding {
     getBean = {
         SpringApplicationContext.getBean(it)
     }
-
-    autowire = { self, beanNames ->
-        beanNames.each {
-            self.setProperty(it, SpringApplicationContext.getBean(it))
-        }
-    }
 }
+
+categories SpringCategory
+
+

@@ -5,7 +5,7 @@ def now = new Date()
 def dateFormat = getBean('dateFormat')
 
 // Resolve a list of bean names and create bindings for each one of them
-autowire this, ['timeFormat', 'dateTimeFormat']
+autowire 'timeFormat', 'dateTimeFormat'
 
 html.html {
     body {
